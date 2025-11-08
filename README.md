@@ -14,22 +14,15 @@
 ---
 
 ## About this Repository
-
-Starter files for the example labs:
-
-- notebooks/example01 folder
-- notebooks/example02 folder
+-banknote.txt file
 
 ## Folders for Projects
 
 Each project will be completed in its own folder.
 
-- notebooks/project01 folder:
-  - ml01.ipynb - COMPLETE THIS
-  - ml01.py - working script with just the code
-  - README.md - instructions - modify this to present your lab project
-
----
+- MLMIDTERM folder:
+  - midterm.ipynb 
+  - README.md
 
 ## WORKFLOW 1. Set Up Machine
 
@@ -136,13 +129,10 @@ uv run mkdocs serve
 
 ### 3.4 Execute
 
-This project includes demo code.
-Run the demo Python modules to confirm everything is working.
-
 In VS Code terminal, run:
 
 ```shell
-uv run python notebooks/project01/ml01.py
+uv run python MLMIDTERM/notebook/midterm.ipynb
 ```
 
 A new window with charts should appear. Close the window to finish the execution. 
